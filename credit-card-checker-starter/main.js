@@ -84,6 +84,7 @@ function findInvalidCards(nestedArr, func){
                 invalidCards[i].push([key, value])
             } 
         }
+        invalidCards[i] = invalidCards[i].toString();
     } 
     
     
